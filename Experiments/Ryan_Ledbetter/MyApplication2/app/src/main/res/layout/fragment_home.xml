@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Scott The Woz (stylized in start case) is a gaming comedy review web series created by American YouTuber Scott Daniel Wozniak.[2][3] The series, starring Wozniak, covers topics related to video games and gaming history. Episodes are written and directed by Wozniak, with recurring characters played by friends. The main channel currently has 1.79 million subscribers on YouTube, with a second channel, Scott's Stash, focusing on behind-the-scenes content. Compilations of episodes were syndicated on the 2021–2022 revival of the TV network G4. Scott The Woz (stylized in start case) is a gaming comedy review web series created by American YouTuber Scott Daniel Wozniak.[2][3] The series, starring Wozniak, covers topics related to video games and gaming history. Episodes are written and directed by Wozniak, with recurring characters played by friends. The main channel currently has 1.79 million subscribers on YouTube, with a second channel, Scott's Stash, focusing on behind-the-scenes content. Compilations of episodes were syndicated on the 2021–2022 revival of the TV network G4. Scott The Woz (stylized in start case) is a gaming comedy review web series created by American YouTuber Scott Daniel Wozniak.[2][3] The series, starring Wozniak, covers topics related to video games and gaming history. Episodes are written and directed by Wozniak, with recurring characters played by friends. The main channel currently has 1.79 million subscribers on YouTube, with a second channel, Scott's Stash, focusing on behind-the-scenes content. Compilations of episodes were syndicated on the 2021–2022 revival of the TV network G4. Scott The Woz (stylized in start case) is a gaming comedy review web series created by American YouTuber Scott Daniel Wozniak.[2][3] The series, starring Wozniak, covers topics related to video games and gaming history. Episodes are written and directed by Wozniak, with recurring characters played by friends. The main channel currently has 1.79 million subscribers on YouTube, with a second channel, Scott's Stash, focusing on behind-the-scenes content. Compilations of episodes were syndicated on the 2021–2022 revival of the TV network G4."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.278" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

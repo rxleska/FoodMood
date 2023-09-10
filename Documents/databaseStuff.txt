@@ -1,0 +1,4 @@
+user: Root                      use for management stuff
+password: d8469a4076258aad
+user: teamAccount               only has access to the projectDB schema use for calls
+password: thisIsABadPassword123

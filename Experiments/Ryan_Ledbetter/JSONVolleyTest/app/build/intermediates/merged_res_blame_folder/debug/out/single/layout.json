@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ryan\\.gradle\\daemon\\7.5\\com.example.jsonvolleytest.app-mergeDebugResources-4:\\layout\\course_rv_item.xml",
+        "source": "C:\\Users\\ryan\\.gradle\\daemon\\7.5\\com.example.jsonvolleytest.app-main-7:\\layout\\course_rv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ryan\\.gradle\\daemon\\7.5\\com.example.jsonvolleytest.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ryan\\.gradle\\daemon\\7.5\\com.example.jsonvolleytest.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.jsonvolleytest.app-mergeDebugResources-4:/layout/course_rv_item.xml",
+        "source": "com.example.jsonvolleytest.app-main-7:/layout/course_rv_item.xml"
+    }
+]

@@ -1,0 +1,13 @@
+#Fri Feb 24 14:20:18 CST 2023
+path.3=8/classes.dex
+path.2=10/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.3=C\:\\ProgrammingFiles\\1_hb_7\\Experiments\\Ryan_Ledbetter\\JSONVolleyTest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.2=C\:\\ProgrammingFiles\\1_hb_7\\Experiments\\Ryan_Ledbetter\\JSONVolleyTest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.1=C\:\\ProgrammingFiles\\1_hb_7\\Experiments\\Ryan_Ledbetter\\JSONVolleyTest\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\ProgrammingFiles\\1_hb_7\\Experiments\\Ryan_Ledbetter\\JSONVolleyTest\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

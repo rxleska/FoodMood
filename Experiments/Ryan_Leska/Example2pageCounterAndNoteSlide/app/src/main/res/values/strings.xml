@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Example2pageCounterAndNoteSlide</string>
+    <string name="title_Counter">COUNTER</string>
+    <string name="title_Notes">NOTES</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="counter_button_text">+</string>
+</resources>

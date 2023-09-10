@@ -1,0 +1,89 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--ImageView to display our course image-->
+
+            <!--text view for our course name-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/BanUser"
+                        android:visibility="gone"
+                        android:layout_width="1px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_delete" />
+
+                    <TextView
+                        android:id="@+id/UserName"
+                        android:layout_width="146dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:text="UserName"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Rating"
+                        android:layout_width="10dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Rating"
+                        android:textColor="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/deleteReview"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:visibility="gone"
+                        app:srcCompat="@android:drawable/ic_menu_delete"
+                        app:tint="@color/design_default_color_error" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/RBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="Rbody"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

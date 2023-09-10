@@ -1,0 +1,39 @@
+// {type:activity}
+// {generate:true}
+(MainActivity)->(Navigation Bar)
+
+// (Restaraunts)->(Recommendations)
+// (Restaraunts)->(Account Page / Login)
+
+(Navigation Bar)->(Restaraunts)
+(Navigation Bar)->(Account Page / Login)
+(Navigation Bar)->(Recommendations)
+// (Recommendations)->(Restaraunts)
+// (Recommendations)->(Account Page / Login)
+// (Account Page / Login)->(Restaraunts)
+// (Account Page / Login)->(Recommendations)
+
+(Restaraunts)TapOnRestaraunt->(Food List w/Ratings)
+(Restaraunts)TapOnFilterIcon->(RestarauntFilterList)
+(Food List w/Ratings)TapOnFood->(Review Page)
+(Food List w/Ratings)TapOnFilterIcon->(FoodFilterList)
+(Food List w/Ratings)AddReviewButton->(add Review)
+(Food List w/Ratings)TapOnFilterIcon->(FoodFilterList)
+(Review Page)AddButton->(add Review)
+
+(Recommendations)TapOnFood->(Review Page)
+(Recommendations)TapOnFilterIcon->(FoodFilterList)
+(Recommendations)TapOnMapIcon->(Map)
+(Map)TapOnRestaraunt->(Food List w/Ratings)
+
+(Account Page / Login)ISLoggedIn->(Account Page)
+(Account Page / Login)ISNotLoggedIn->(Login)
+(Account Page)SettingsButton->(Settings Page)
+(Login)SettingsButton->(Settings Page)
+(Login)loginButton->(Account Page)
+(Login)registerButton->(Registration Page)
+(Registration Page)alreadyHaveAccountButton->(Login)
+(Registration Page)registerAccountButton->(Account Page)
+
+
+

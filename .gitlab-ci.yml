@@ -1,0 +1,22 @@
+stages:
+  - start
+
+trigger-backend:
+  stage: start
+  rules:
+    - changes: 
+      - Backend/*
+      when: always
+  trigger:
+    include:
+      - local: Backend/backend.yml
+
+trigger-frontend:
+  stage: start
+  rules:
+    - changes: 
+      - Frontend/*
+      when: always
+  trigger:
+    include:
+      - local: Frontend/.gitlab-ci.yml

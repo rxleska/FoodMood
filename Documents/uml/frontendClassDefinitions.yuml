@@ -1,0 +1,10 @@
+// {type:class}
+// {generate:true}
+
+[Restaurant Object Class|int id;|String name;|String address;|String description;|String type;|String Array subRestaurantNames;|int Array  associatedFoodIds;|double latitude;|double longitude;]
+
+[Food Object Class|int id;|double averageNumberOfStars;|String name;|String category;|lDate date;]
+
+[Review Object Class|int id;|int associatedProfileId;|double rating;|String reviewBody;|lDate date;|int associatedFoodId;]
+
+[lDate Object Class|int year;|int month;|int day;|int hour;|int minute;]

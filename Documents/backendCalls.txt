@@ -1,0 +1,74 @@
+base url:
+http://coms-309-012.class.las.iastate.edu:8080/
+
+CURRENTLY IMPLIMENTED REQUESTS
+
+Put /login
+no parameters
+expects
+{
+    "username":"someUser",
+    "password":"somePassword"
+}
+returns
+{
+    "loggedIn": Boolean if logged in,
+    "status": "current status",
+    "token": -1
+}
+
+function:
+accepts login info and checks it against current db of users
+if login is succsesful returns a temporay login token for authenticating users for other api calls
+if token is negative then user was unable to login
+
+Post /registration
+no parameters
+expects
+{
+    "username":"someUser",
+    "password":"somePassword"
+}
+returns
+{
+    "loggedIn": Boolean if logged in,
+    "status": "current status",
+    "token": -1
+}
+function:
+accepts username and password and attempts to create a new user and log them in
+For token info see login
+
+Put /logout
+expects
+{
+    "token":<Usertoken>
+}
+returns
+{
+    "loggedIn": Boolean if logged in,
+    "status": "current status"
+}
+matches token against current list of all logged in users and removes the current login token from use if matched
+
+Delete /deleteUser
+expects
+{
+    "username":<username>,
+    "password":<password>,
+    "token":<matching token>
+}
+returns
+{
+    "deleted":<boolean>,
+    "status": "current status"
+}
+checks for a matching username password and token to delete a user from the mysql db
+
+UPCOMING REQUESTS
+
+Get /restaurants
+
+Get /foods
+
+get /reviews

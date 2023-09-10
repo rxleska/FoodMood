@@ -1,0 +1,46 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[note:arrow means{bg:#550000}]->[note:\"state change\"{bg:#005500}]
+
+[Main Activity|Navigation Bar{bg:#FFFFFF}]
+[Main Activity]->[Restaurant Fragment{bg:#005500}]
+[Main Activity]->[Recommendation Fragment{bg:#005500}]
+[Main Activity]->[Account Fragment{bg:#005500}]
+
+[note:box line means{bg:#550000}]-<>[note:\"new Activty popup\"{bg:#000055}]
+
+[Restaurant Fragment]
+[Restaurant Fragment]-<>[Food List Activity{bg:#000055}]
+
+
+
+[Recommendation Fragment]
+[Recommendation Fragment]-<>[Food List Activity]
+[Recommendation Fragment]-<>[Map Activity{bg:#000055}]
+
+
+[Account Fragment]
+[Account Fragment]->[Acount Page{bg:#005500}]
+[Account Fragment]->[Login Page{bg:#005500}]
+[Account Fragment]->[Registration Page{bg:#005500}]
+[Account Fragment]-<>[Settings Page{bg:#000055}]
+
+
+
+[Food List Activity]
+[Food List Activity]-<>[Review List Activity{bg:#000055}]
+[Food List Activity]-<>[Add Review Activity{bg:#000055}]
+
+
+[Review List Activity]
+[Review List Activity]-<>[Add Review Activity]
+
+
+[Add Review Activity]
+
+[Map Activity{bg:#000055}]
+
+[Any List{bg:#FFFFFF}]->[Filter Activity{bg:#000055}]
+[Filter Activity{bg:#000055}]->[Any List{bg:#FFFFFF}]

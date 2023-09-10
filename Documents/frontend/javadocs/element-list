@@ -1,0 +1,13 @@
+com.example.mainapplication
+com.example.mainapplication.datainterface
+com.example.mainapplication.datainterface.caching
+com.example.mainapplication.datainterface.DataClasses
+com.example.mainapplication.datainterface.mockClasses
+com.example.mainapplication.datainterface.notinuse
+com.example.mainapplication.datainterface.volleySimplification
+com.example.mainapplication.ui.dashboard
+com.example.mainapplication.ui.home
+com.example.mainapplication.ui.home.food
+com.example.mainapplication.ui.home.restaurant
+com.example.mainapplication.ui.lists
+com.example.mainapplication.ui.notifications
