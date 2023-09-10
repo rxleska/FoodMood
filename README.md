@@ -1,3 +1,10 @@
+# This repo is a copy of my ISU COM S 309 Group Project 
+The Goal of the project was to build an android app, My group decided to make a ISU Campus food reviewing app.
+The end app, allowed for a star 5 review system with review descriptions. The restaurants and foods were auto populated. 
+The app had an accompanying server that used maria DB and springboot. 
+Reviews and review scores were updated live using websockets. 
+
+
 # 1_HB_7
 
 ## Request Format Link
